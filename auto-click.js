@@ -21,11 +21,12 @@
         }
     }
     
-    // Menjalankan fungsi setiap 12 menit
-    setInterval(performClicks, 720000);
+    // Menjalankan fungsi setiap 1 menit (60000 milidetik)
+    setInterval(performClicks, 60000); // <-- NILAI DIUBAH DI SINI
     
     // Jalankan sekali pada awal
     performClicks();
     
-    console.log('Script telah aktif! Akan mengklik tombol setiap 12 menit.');
-})(); 
+    // Pesan log juga diubah untuk konsistensi
+    console.log('Script telah aktif! Akan mengklik tombol setiap 1 menit.'); // <-- PESAN DIUBAH DI SINI
+})();
