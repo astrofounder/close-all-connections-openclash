@@ -15,7 +15,7 @@
                 } else {
                     console.log('Tombol "I\'m sure" tidak ditemukan');
                 }
-            }, 1000); // Menunggu 1 detik untuk tombol konfirmasi muncul
+            }, 5000); // Menunggu 1 detik untuk tombol konfirmasi muncul
         } else {
             console.log('Tombol close tidak ditemukan');
         }
